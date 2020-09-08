@@ -24,4 +24,5 @@ jobs:
 
       - name: Markdown Linting Action
       uses: avto-dev/markdown-lint@v1.1.0
-      with:args: '*.md'
+      with:
+        args: '*.md'
